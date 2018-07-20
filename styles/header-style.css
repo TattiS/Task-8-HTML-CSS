@@ -1,0 +1,171 @@
+header{
+	display:block;
+	width:100%;	
+	padding:20px 0;
+	background-color:orange;
+}
+.logo{
+    left:0;
+    top:0;
+    height:100px;
+    float:left;
+    
+}
+.logo img {
+	display: block;
+	height: 100px;
+}
+
+
+
+#header #hgroup{float:left; margin:0 0 20px 0;}
+#header #hgroup h1,
+#header #hgroup h2{font-weight:normal; text-transform:none;}
+#header #hgroup h1{font-size:36px;}
+#header #hgroup h2{font-size:13px;}
+
+#header nav{display:block; float:right; margin:10px 0 0 0; padding:20px 0; color:#C0BAB6; background-color:orange;}
+#header nav ul{padding:0 20px;}
+#header nav li{display:inline; margin-right:25px; text-transform:uppercase;}
+#header nav li.last{margin-right:0;}
+#header nav li a{color:#C0BAB6; background-color:orange;}
+#header nav li a:hover{color:#FF9900; background-color:orange;}
+
+.social{
+	display:inline-block;
+}
+.social a {
+    text-decoration: none;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin: 0 5px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+    float: left;
+}
+
+    .social ul li .fa {
+        color: #ddd;
+        margin-top: 3px;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover:nth-child(1) {
+        border: 5px solid #3b5998;
+        box-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover .fa-facebook {
+        color: #3b5998;
+        text-shadow: 0 0 15px #3b5998;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover:nth-child(2) {
+        border: 5px solid #00aced;
+        box-shadow: 0 0 15px #00aced;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover .fa-twitter {
+        color: #00aced;
+        text-shadow: 0 0 15px #00aced;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover:nth-child(3) {
+        border: 5px solid #bc2a8d;
+        box-shadow: 0 0 15px #bc2a8d;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover .fa-instagram {
+        color: #bc2a8d;
+        text-shadow: 0 0 15px #bc2a8d;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover:nth-child(4) {
+        border: 5px solid #dd4b39;
+        box-shadow: 0 0 15px #dd4b39;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover .fa-google {
+        color: #dd4b39;
+        text-shadow: 0 0 15px #dd4b39;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover:nth-child(5) {
+        border: 5px solid #4dc247;
+        box-shadow: 0 0 15px #4dc247;
+        transition: all 0.5s ease;
+    }
+
+    .social ul li:hover .fa-whatsapp {
+        color: #4dc247;
+        text-shadow: 0 0 15px #4dc247;
+        transition: all 0.5s ease;
+    }
+
+
+
+.search-form    input:focus {
+	    
+	    z-index: 1;
+	    border-bottom: 0.5px solid #ddd;
+	}
+	
+.search button {
+	background: transparent;
+	border-radius: 50%;
+	border: 2px solid #ddd;
+	height: 35px;
+	width: 35px;
+	cursor: pointer;
+	
+	}
+
+	.search button:hover {
+	    border: 2px solid #513a8d;
+	    box-shadow: 0 0 15px #513a8d;
+	    
+	}
+
+
+
+
+
+
+
+        @media screen and (max-width: 640px) {
+           
+            .humburger{
+            	position: hidden; 
+            }
+
+            
+        }
+
+
+        @media screen and (max-width: 480px) {
+           .social{
+               display:none;
+           }
+           .humburger{
+           		position: absolute;
+           }
+           
+        }

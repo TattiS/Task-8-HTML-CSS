@@ -1,0 +1,50 @@
+* {
+    max-width: 1200px;
+    box-sizing: border-box;
+}
+html, body {
+  margin: 0;
+
+}
+#humburger{
+	position: hidden;
+}
+.wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.main-content{
+	margin-top: 20px;
+	width:700px;
+}
+
+#header,
+#footer {
+	overflow: hidden;
+    display: block;
+    
+    width: 100%;
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+    
+}
+.fl_left {
+	display: block;
+    float: left;
+    background: transparent;
+}
+
+.fl_right {
+    float: right;
+    display: block;
+    background: transparent;
+}
+
+
+
+   
